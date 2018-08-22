@@ -1,0 +1,65 @@
+ .deleteButton  {
+	position: absolute;
+	left: 300px;
+}
+
+.editor {
+top: -25px;
+position: relative
+}
+
+.prime1 {
+left: 50px;
+position: relative
+}
+.prime {
+left: 40px;
+position: relative
+}
+
+.filter {
+  font-size: 11px;
+  position: relative;
+  left: 100px;
+}
+
+.filter {
+	color: inherit;
+	margin: 3px;
+	padding: 3px 7px;
+	text-decoration: none;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.filter:hover {
+	border-color: rgba(175, 47, 47, 0.1);
+}
+
+.filter.selected {
+	border-color: rgba(175, 47, 47, 0.2);
+}
+
+.strike {
+  text-decoration: line-through
+}
+
+.destroy{
+  font-size: 11px;
+  position: relative;
+  left: 110px;
+  cursor: pointer;
+}
+
+.destroy:hover {
+  text-decoration: underline
+}
+
+.indicator{
+  top: -34.5px;
+  font-size: 11px;
+  position: relative;
+  left: 0px;
+  cursor: normal;
+}
